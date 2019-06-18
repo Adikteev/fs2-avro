@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "UserScore",
+  "namespace": "com.aktv.test",
+  "fields": [
+    {
+      "name": "advertising_id",
+      "type" : "string"
+    },
+    {
+      "name": "conversion_rate",
+      "type" : "double"
+    },
+    {
+      "name": "country",
+      "type" : "string"
+    }
+  ]
+}
